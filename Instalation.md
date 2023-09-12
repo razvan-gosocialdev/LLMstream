@@ -1,4 +1,4 @@
-### Commands
+### Instalation
 
 - Get Python 3.11.4 with pip
 https://www.python.org/downloads/
@@ -9,7 +9,7 @@ https://visualstudio.microsoft.com/free-developer-offers/
 - Get CUDA 12.2 update 1
 https://developer.nvidia.com/cuda-downloads
 
-- DOwnload the LAMA2 model (llama-2-7b-chat.ggmlv3.q4_0.bin) from:
+- Download the LAMA2 model (llama-2-7b-chat.ggmlv3.q4_0.bin) from:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
 - Install pytorch with cuda support
