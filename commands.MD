@@ -11,17 +11,30 @@ https://developer.nvidia.com/cuda-downloads
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
 # Install pytorch with cuda support
+```console
 pip install numpy
+```
+```console
 pip install langchain
+```
+```console
 pip install sentence_transformers
+```
+```console
 pip install simpleaudio
+```
 
 # Upgrade setup tools
+```console
 pip install --upgrade setuptools
+```
 
 # Install torch with CUDA support
+```console
 pip install --force-reinstall --no-cache-dir torch --index-url https://download.pytorch.org/whl/cu118
-
+```
 
 # install llama-cpp-python
+```console
 set CMAKE_ARGS="-DLLAMA_CUBLAS=on" && set FORCE_CMAKE=1 && pip install --verbose --force-reinstall --no-cache-dir llama-cpp-python==0.1.77
+```
